@@ -1,0 +1,23 @@
+{
+	"name": "nickhargreaves/this_repo",
+	"description": "My awesome Newscoop Plugin for Facebook integration",
+"keywords": ["newscoop", "facebook"],
+"version": "0.1",
+"type": "newscoop-plugin",
+"license": "GPL-3.0",
+"authors": [
+    {
+    "name": "YOUR NAME",
+    "email": "YOUR@EMAIL.ADDRESS"
+ }
+],
+"require": {
+    "php": ">=5.3.3",
+    "newscoop/plugins-installer": "*"
+},
+"autoload": {
+    "psr-0": { "Newscoop\\FacebookMetaBundle\\NewscoopFacebookMetaBundle": "" }
+},
+"target-dir": "Newscoop/FacebookMetaBundle",
+"minimum-stability": "dev"
+}
